@@ -1,0 +1,37 @@
+Hey! what is up guys?
+Today I'm gonna give a simple example of how you can add 
+smooth scroll or smooth transition to your page using one single 
+line in CSS.
+The reason why I'm doing this video, is because I see lot of people
+messing with javascript to add this simple thing to their website.
+Well, in some cases you need some javascript to do it, for example 
+if you want to customize the speed or easing in or out or maybe
+both. Or even if you wanted a kinda tilted way so you're gonna 
+need to deal with x and y axis and that kind of stuff.
+
+Ok let's see what we got in here. So I have this minimal page 
+filled with some text and a fixed navbar to navigate throughout
+the sections. You can see that whenever I click on a link it takes me
+down to it or up if it's on top of the current section.
+
+Alright, let's take a look at how we can do it. So I have this html
+file which has 4 divs and a navbar. Each div has an ID and each
+link in the ul has an empty url. So the way we jump from a section
+to another is by assigning the section's ID as url to the a tag.
+We just need to type # and then the ID. and that's it.
+let's see if it works. there we go. But you can see that it doesn't 
+have the smooth scroll effect. To do that, I'm just gonna go ahead 
+to my css file and type: html{ scroll-behavior: smooth;}.
+Hit save, and it works.
+
+Ok that's it guys. I didn't start from scratch cause you know all 
+the markup and styling are just basic stuff you can see that we 
+have nothing special nothing advanced. It's crystal clear just 
+simple stuff. I'll add a codepen demo in the description in case
+you need it. Ok thanks for watching and see you later.
+
+Although, we've never met. 
+
+
+
+

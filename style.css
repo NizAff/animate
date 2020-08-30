@@ -1,0 +1,57 @@
+/* this is gonna be the last
+line of code */
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+  color: #eee;
+}
+
+nav{
+  position: fixed;
+  background: #333;
+  width: 100vw;
+}
+
+ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 1em;
+}
+
+ul li a{
+  color: #eee;
+  text-decoration: none;
+}
+
+div{
+  padding-top: 15%;
+  height: 100vh;
+  width: 100vw;
+}
+
+#Home{
+  background: teal;
+}
+
+#first{
+  background: coral;
+}
+
+#second{
+  background: #159;
+}
+
+#third{
+  background: #777;
+}
